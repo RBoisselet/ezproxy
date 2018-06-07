@@ -15,8 +15,8 @@ I developed a few Vanilla JS functions to sort, search and highlight the searche
 
 Here are some screenshot: 
 
-![List](/images/logo.png)
-Format: ![List screenshot](https://accesdistant.sorbonne-universite.fr/public/images/list.png)
+![List screenshot](https://accesdistant.sorbonne-universite.fr/public/images/list.png)
+
 
 
 https://accesdistant.sorbonne-universite.fr/public/images/list.png
