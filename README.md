@@ -19,3 +19,5 @@ Here are some screenshot:
 * [Database list sorted](https://accesdistant.sorbonne-universite.fr/public/images/sorted.png)
 * [Search result](https://accesdistant.sorbonne-universite.fr/public/images/search.png)
 * [Small device display](https://accesdistant.sorbonne-universite.fr/public/images/responsive.png)
+
+And if you want to see what it looks like https://accesdistant.sorbonne-universite.fr/public/menu_en.html
