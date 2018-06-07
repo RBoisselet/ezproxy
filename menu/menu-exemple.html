@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Database Menu</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-12" id="logo">
+					<img class="img-fluid" src="../public/images/logo_su.png" alt="Sorbonne Université logo" title="Sorbonne Université Logo">
+				</div> <!-- End of "logo" div -->
+				<div class="col-md-8 col-sm-8 col-12" id="title">
+					<h1>Sorbonne University Library</h1>
+					<h2>Remote Access Service</h2>
+				</div> <!-- End of "title" div -->
+			</div> <!-- End of "row" div -->
+			<div class="row" id="language">
+				<div class="col-12 ">
+					<p class="small-caps"><a href="../menu" title="Menu français">Fr</a> | <strong>En</strong></p>
+				</div> <!-- End of "language" -->
+			</div> <!-- En of row -->
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p>This page is the default menu of databases, mainly used for testing purposes. If you wish to access the digital ressources, you should use one of the following tools:
+						<ul>
+							<li>The <a href="http://documentation.sorbonne-universites.fr/en/ressources/databases.html" target="_blank" title="Liste des ressources numériques">databases list <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a> on our portal ;</li>
+							<li>SUper, the <a href="http://documentation.sorbonne-universites.fr/en/ressources/catalogs.html" target="_blank" title="Outil de découverte">discovery tool  <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a> which is a unique gateway to all ressources, printed or digital ;</li>
+							<li>The A to Z list of the journals of the <a href="http://sfxeu06.hosted.exlibrisgroup.com/33UPMC/az" target="_blank" title="Liste A-Z des Facultés des Sciences et Ingénierie et de Médecine">Faculty of Science & Engineering and the Faculty of Medicine  <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a> ; of the <a href="http://search.ebscohost.com/login.aspx?authtype=ip,guest&custid=ns009251&groupid=main&direct=true&db=edspub&profile=eds&plp=1" target="_blank" title="Liste A-Z de la Faculté des Lettres">Faculty of Arts & Humanities <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>.</li>
+						</ul>
+					</p>
+					<br>
+					<h3 class="center">Databases List</h3>
+				</div>
+				<div class="row">
+				<div class="col-sm-12 col-md-8 col-md-offset-2">
+					<table id="display_table" class="table table-hover">
+						<thead>
+							<tr>
+								<th scope="col" class="menu_table">
+  									<nav class="navbar navbar-default">
+									  <div class="container-fluid">
+									    <!-- Brand and toggle get grouped for better mobile display -->
+									    <div class="navbar-header">
+									      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+									        <span class="sr-only">Toggle navigation</span>
+									        <span class="icon-bar"></span>
+									        <span class="icon-bar"></span>
+									        <span class="icon-bar"></span>
+									      </button>
+									    </div>
+									    <!-- Collect the nav links, forms, and other content for toggling -->
+									    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									      <form class="navbar-form navbar-left">
+									        <div class="form-group">
+									          <input type="text" id="db_search" class="form-control" placeholder="Search">
+									        </div>
+									      </form>
+									      <ul class="nav navbar-nav navbar-right">
+									        <li><a href="#" id="sorting" title="Sort ressources"><span id="sorting-icon" class="glyphicon glyphicon-sort-by-alphabet-alt sort"></span></a></li>
+									      </ul>
+									    </div><!-- /.navbar-collapse -->
+									  </div><!-- /.container-fluid -->
+									</nav>
+  								</th>
+							</tr>
+						</thead>
+						<tbody>
+							^B
+							<tr>
+								<td class="domain"><a class="database-link" href="/login?url=^V" target="_blank">^T</a></td>
+							</tr>
+							^E
+						</tbody>
+					</table>
+				</div>
+			</div>
+			</div>
+		</div>
+
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p><span class="glyphicon glyphicon-envelope bleu_su" aria-hidden="true"></span> If you need any help, please contact us: <a href="mailto:name@domain.tld&subject=[EZProxy] - Help">name@domain.tld</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<!-- Bootstrap JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="scripts/filterAndSort.js"></script>
+
+</body>
+
+</html>
