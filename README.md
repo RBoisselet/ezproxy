@@ -1,7 +1,7 @@
 # ezproxy
 EZProxy developments
 
-## EZProxy default menu page styling
+## EZProxy default menu page enhancements
 
 The menu.htm page is shown after login. It is a bit raw by default though it's possible to style and enhance it. In most cases, end users will not see this page if they access to ressources through a direct proxified URL, on rare cases the page might be delivered by the proxy when the url is wrong and the user is logged in. So it's generally not worth the while. But I tried to come up with something nonetheless as a side project while learning JS. Librarian might find usefull to search or sort their database list however.
 
