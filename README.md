@@ -15,6 +15,7 @@ I developed a few Vanilla JS functions to sort, search and highlight the searche
 
 Here are some screenshot: 
 
-* [Database List](https://accesdistant.sorbonne-universite.fr/public/images/list.png)
-* [Database List sorted](https://accesdistant.sorbonne-universite.fr/public/images/sorted.png)
+* [Database list](https://accesdistant.sorbonne-universite.fr/public/images/list.png)
+* [Database list sorted](https://accesdistant.sorbonne-universite.fr/public/images/sorted.png)
 * [Search result](https://accesdistant.sorbonne-universite.fr/public/images/search.png)
+* [Small device display](https://accesdistant.sorbonne-universite.fr/public/images/responsive.png)
