@@ -8,7 +8,7 @@ It runs every night, logs the result and send a CSV report attached to a mail.
 
 ## How to use it
 1. Complete the config.json with your own parameters ;
-2. Execute stanzaschecker.py.
+2. Execute stanzaschecker.py `stanzaschecker.py >> stanzaschecker.log 2>&1`
 
 I've automated the execution to check our databases daily with a simple CRON call to this small script :
 ```
