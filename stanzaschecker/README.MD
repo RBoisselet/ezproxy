@@ -30,3 +30,9 @@ Kompass Easybusiness http://accesdistant.sorbonne-universite.fr/login?url=https:
 2018-09-06 - 1 Errors found: sending notification e-mail to ['bibnum@sorbonne-universite.fr', 'romain.boisselet@sorbonne-universite.fr'] 
 Report databasesCheckReport_2018-09-06.csv successfully written in databasesCheckReports/
 ```
+## Report Exemple
+| database_name | database_url  | http_code | http_status |
+|:-------------:|:-------------:|:---------:|:-----------:|
+Metropolitan Opera on Demand	| http://accesdistant.sorbonne-universite.fr/login?url=http://metopera.org/ondemand/index.aspx	| 404	| Document non trouvé
+Nature Publishing	| http://accesdistant.sorbonne-universite.fr/login?url=https://www.nature.com	| 503	| Service indisponible
+IEEE Xplore |	http://accesdistant.sorbonne-universite.fr/login?url=https://ieeexplore.ieee.org/	| 503	| Service indisponible
