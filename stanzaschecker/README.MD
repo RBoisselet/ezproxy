@@ -1,5 +1,5 @@
 # EZProxy stanzas checker
-I've always found embarassing to be warned by patrons that one of our databases was down. They shouldn't have to, but we cannot check our ressources manually everyday. So I programmed this little tool that checks the HTTP response status of every configured stanza. It just a "first aid kit": a database might be accessible but the proxy server IP not recognized, but it has proven itself usefull.
+I've always found embarassing to be warned by patrons that one of our databases was down. They shouldn't have to, but we cannot check our ressources manually everyday. So I programmed this little tool that checks the HTTP response status of every configured stanza. It's just a "first aid kit": a database might be accessible but the proxy server IP not recognized and the articles unavailables, but it has proven itself usefull.
 It runs every night, logs the result and sends a .CSV report attached to a mail. It uses CAS for authentification.
 
 ## Requirements
