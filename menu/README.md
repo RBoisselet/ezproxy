@@ -5,7 +5,7 @@ The menu.htm page is shown after login. It is a bit raw by default though it's p
 
 ### Styling
 
-EZProxy manages external CSS and JavaScript so I used Bootsrap 3 to add a minimalist header and footer and make the page responsive. The database list is displayed in a table. See menu-exemple.htm and style.css.
+EZProxy manages external CSS and JavaScript so I used Bootstrap 3 to add a minimalist header and footer and make the page responsive. The database list is displayed in a table. See menu-exemple.htm and style.css.
 
 ### Sorting, searching, and highlighting
 
